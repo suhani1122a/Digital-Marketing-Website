@@ -1,0 +1,1195 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha:100,200,300,400,500,600,700|Poppins:100,200,300,400,500,600,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------------[ Header Section ]-------------------------------------- */
+
+/* Navigation Bar Background */
+.navbar-dark {
+    background: #000;
+    color: #F5f6fa;
+}
+
+/* Website Logo */
+.navbar-brand {
+    font-family: Neucha, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 10px 0 2px;
+}
+
+/* Navigation Menu Syling */
+.nav-link {
+    font-family: Neucha, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin: 8px 2px 2px;
+    text-align: center;
+}
+
+/* Button Toggler */
+button .navbar-toggler {
+    border: 0;
+    padding: 0px 15px 0px 15px;
+}
+
+/* Button Toggler Border */
+button.navbar-toggler:focus {
+    outline: 0.5px dotted;
+}
+
+/* Button Toggler Styling */
+.toggle-btn {
+    font-size: 23px;
+    padding: 0px;
+    height: initial;
+    color: #F5f6fa
+}
+
+/* ------------------------------------[ Hero Image Section ]-------------------------------------- */
+
+/* Section Styling */
+#hero-image-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../images/bg-hero-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #F5f6fa;
+    padding: 190px 40px 100px;
+}
+
+/* Section Text */
+.hero-text {
+    text-align: center;
+    margin: auto;
+}
+
+/* Section Title */
+.hero-text h1 {
+    font-family: Neucha, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+/* Section Paragraph */
+.hero-text p {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Section CTA Button Alignment */
+.cta-button-white-pink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Section CTA Button Styling */
+.cta-button-white-pink a {
+    display: flex;
+    text-decoration: none;
+    font-family: Poppins, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #F5f6fa;
+    color: #000;
+    padding: 12px 25px 10px 25px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    margin: 15px 0 15px 0;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* Section CTA Button Hover Effect */
+.cta-button-white-pink a:hover {
+    background: #c44569;
+    color: #f5f6fa;
+}
+
+/* ------------------------------------[ About Me Section ]-------------------------------------- */
+
+/* Section Styling */
+#about-section {
+    background-image: linear-gradient(to right, #82589F, #c44569);
+    padding: 35px;
+    color: #f5f6fa;
+}
+
+/* White Hyphen Symbol */
+.hyphen-white {
+    width: 100px;
+    height: 5px;
+    background: #f5f6fa;
+    margin: 20px 0 40px 15px;
+    padding-top: 10px;
+}
+
+/* Left Column */
+.about-text {
+    margin-left: -15px;
+}
+
+/* Section Title */
+.about-text h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0 15px;
+}
+
+/* Section Paragraph */
+.about-text p {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 15px 15px;
+}
+
+/* Section Button Styling */
+.about-text a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Poppins, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #f5f6fa;
+    color: #000;
+    margin: 0 15px;
+    padding: 12px 25px 10px 25px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* Button Hover Effect */
+.about-text a:hover {
+    background-color: #000;
+    color: #f5f6fa;
+}
+
+/* Right Column Image */
+.right-column-img {
+    background-image: url(../images/about-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ------------------------------------[ Work Experience & Communities Section ]-------------------------------------- */
+
+/* Section Styling (Communities */
+#communities-section {
+    background: #e7e8ef;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    color: #434343;
+    padding: 40px 20px 35px;
+}
+
+/* Section Styling (Work Experience) */
+#work-experience {
+    background: #f1f1f1;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    color: #434343;
+    padding: 40px 20px 35px;
+}
+
+/* Content Styling */
+.communities-wrap,
+.experience-wrap {
+    height: auto;
+    text-align: center;
+    max-width: 1100px;
+}
+
+/* Intro Title */
+.communities-wrap h2,
+.experience-wrap h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Intro Paragraph */
+.communities-wrap p,
+.experience-wrap p {
+    max-width: 550px;
+    font-size: 16px;
+    text-align: center;
+    font-family: Poppins, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px 0 30px;
+}
+
+/* Communities Styling */
+.communities,
+.companies {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/* Communities List Styling */
+.communities ul,
+.companies ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* Communities List Items */
+.communities ul li,
+.companies ul li {
+    list-style: none;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 12px 20px 5px; /*space between logos*/
+    transition: .5s;
+}
+
+/* Main Logos */
+.communities ul li img,
+.companies ul li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* -----[ Hover Effect ]----- */
+
+.communities ul li img:nth-child(1),
+.companies ul li img:nth-child(1) {
+    transform: translateY(0);
+    transition: .5s;
+}
+
+.communities ul li img:nth-child(2),
+.companies ul li img:nth-child(2) {
+    transform: translateY(0);
+    transition: .5s;
+}
+
+.communities ul li:hover img:nth-child(1),
+.companies ul li:hover img:nth-child(1) {
+    transform: translateY(-100%);
+    transition: .5s;
+}
+
+.communities ul li:hover img:nth-child(2),
+.companies ul li:hover img:nth-child(2) {
+    transform: translateY(-100%);
+    transition: .5s;
+}
+
+@media screen and (max-width:500px) {
+.communities ul li,
+.companies ul li {
+    width: 130px;
+    height: 130px;
+    margin: 12px 10px 5px; /*space between logos*/
+}
+}
+
+/* ------------------------------------[ Qualifications Section ]-------------------------------------- */
+
+/* Section Styling */
+#qualifications {
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #82589F, #c44569);
+    color: #F5f6fa;
+    padding: 50px 50px 0 100px;
+}
+
+/* Section Row Styling */
+#qualifications .row {
+    max-width: 1050px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+/* Intro Title */
+.qualifications-intro h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Intro Paragraph */
+.qualifications-intro p {
+    font-family: Poppins, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    max-width: 550px;
+    margin: 0 auto 40px;
+}
+
+/* Timeline Styling */
+.timeline {
+    max-width: 700px; /* IMPORTANTE */
+    margin: 0 auto;
+}
+
+/* Timeline Body */
+.timeline-body {
+    position: relative;
+    margin-left: 100px;
+    border-radius: 0 8px 8px 0;
+    padding: 2px 0;
+}
+
+/* Timeline Vertical Line */
+.timeline-body::after {
+    content: '';
+    width: 3px;
+    height: 100%;
+    background-color: #F5f6fa;
+    position: absolute;
+    left: -4px;
+    top: 0;
+}
+
+/* Timeline Item */
+.timeline-item {
+    position: relative;
+}
+
+/* Timeline Small Circles */
+.timeline-item::after {
+    content: '';
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 3px solid #F5f6fa;
+    background-color: #F5f6fa;
+    position: absolute;
+    left: -14px;
+    top: 0px;
+    z-index: 9;
+}
+
+/* School Logos */
+.school-logo {
+    position: absolute;
+    left: -130px;
+    top: 0;
+    width: 110px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Timeline Years Styling */
+.qualifications-content h2 {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+/* Section Subtitles */
+.qualifications-content h3 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+/* Section Schools Responsive */
+.qualifications-content h4 {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* Descriptive Paragraph */
+.qualifications-content p {
+    font-size: 15px;
+    font-family: Poppins, Helvetica, sans-serif;
+    line-height: 1.3;
+}
+
+/* Horizontal Dashed Line */
+.qualifications-content {
+    margin: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed #F5f6fa;
+}
+
+/* -----[ Section Responsiveness ]----- */
+
+@media screen and (max-width:960px) {
+
+#qualifications {
+    padding: 50px 0 0 0;
+}
+}
+
+@media screen and (max-width:600px) {
+.school-logo {
+    display: none;
+}
+
+#qualifications {
+    padding: 50px 0 0 0;
+}
+
+#qualifications .col {
+    padding: 0;
+    right: 40px;
+}
+
+.qualifications-intro {
+    padding: 0 20px 0 20px;
+    text-align: center;
+}
+
+.qualifications-intro h2 {
+    font-size: 35px;
+}
+
+.qualifications-content p {
+    display: none;
+}
+}
+
+/* ------------------------------------[ How Can I Help Section ]-------------------------------------- */
+
+/* Section Styling */
+#services-types {
+    box-sizing: border-box;
+    line-height: 1.5;
+    background-color: #e7e8ef;
+    color: #434343;
+}
+
+/* Section Padding */
+.section-padding {
+    padding: 40px 20px 40px 20px;
+}
+
+/* Space Between Intro & Services Types */
+.services-types-intro {
+    margin-bottom: 40px;
+}
+
+/* Section Title */
+.services-types-intro h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* Purple Hyphen Symbol */
+.hyphen-purple {
+    background: #82589F;
+    width: 100px;
+    height: 5px;
+    border: none;
+    margin: 20px auto;
+    padding-top: 10px;
+}
+
+/* Intro Paragraph */
+.services-types-intro p {
+    margin-top: 30px;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.services-types-box {
+    gap: 25px;
+}
+
+/* Space Between Services Types */
+.services-types-box:not(:first-child) {
+    margin-top: 50px;
+}
+
+/* Section Subtitles */
+.services-types-content h3 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+/* Section Paragraphs */
+.services-types-content p {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+}
+
+/* Section Icons */
+.services-types-icon {
+    height: 50px;
+    width: 50px;
+    background-color: #82589F;
+    color: #f5f6fa;
+    font-size: 22px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Section Image Alignment */
+.services-types-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section Image Styling */
+.services-type-img img {
+    max-width: 100%;
+    margin: 30px 0;
+}
+
+/* Section CTA Button Alignment */
+.cta-button-purple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* Section CTA Button Styling */
+.cta-button-purple a {
+    text-decoration: none;
+    font-family: Poppins, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #82589F;
+    color: #f5f6fa;
+    padding: 12px 25px 10px 25px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* Section CTA Button Hover Effect */
+.cta-button-purple a:hover {
+    background: #000;
+    color: #f5f6fa;
+}
+
+/* ------------------------------------[ What I Do Section ]-------------------------------------- */
+
+/* Section Styling */
+#services-fields {
+    background-image: linear-gradient(to right, #82589F, #c44569);
+    color: #f5f6fa;
+}
+
+/* Intro Styling */
+.services-fields-intro {
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Centered White Hyphen Symbol */
+.hyphen-white-center {
+    width: 100px;
+    height: 5px;
+    background: #f5f6fa;
+    margin: 20px auto 40px;
+    padding-top: 10px;
+}
+
+/* Section Title */
+.services-fields-intro h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+/* Intro Paragraph */
+.services-fields-intro p {
+    max-width: 550px;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 30px auto 40px;
+}
+
+/* Section Boxes */
+.services-fields-box {
+    position: relative;
+    margin: 0 5px 15px;
+    padding: 20px;
+    color: #f5f6fa;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Section Subtitles */
+.services-fields-box h3 {
+    font-family: Neucha, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* Section Paragraphs */
+.services-fields-box p {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* Section Icons */
+.top-left {
+    color: #F5f6fa;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* CTA Text 'Learn More' Styling */
+.services-fields-box a {
+    font-family: Poppins, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #F5f6fa;
+    font-size: 12px;
+}
+
+/* CTA Text 'Learn More' Hover Effect */
+.services-fields-box a:hover {
+    text-decoration: underline;
+}
+
+/* Section CTA Button Alignment */
+.cta-button-white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+/* Section CTA Button Styling */
+.cta-button-white a {
+    display: flex;
+    text-decoration: none;
+    font-family: Poppins, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #F5f6fa;
+    color: #000;
+    padding: 12px 25px 10px 25px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    margin: 15px 0 15px 0;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* Section CTA Button Hover Effect */
+.cta-button-white a:hover {
+    background: #000;
+    color: #f5f6fa;
+}
+
+/* ------------------------------------[ Testimonials Section ]-------------------------------------- */
+
+/* Section Styling */
+#testimonials-section {
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Content Styling */
+.inner {
+    max-width: 1140px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 10px;
+}
+
+/* Section Title */
+.inner h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+/* Row Styling */
+.row-styling {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Column Styling */
+.col-styling {
+    box-sizing: border-box;
+    flex: 33%;
+    max-width: 33%;
+}
+
+/* Box Content */
+.testimonial {
+    margin: 20px 5px 15px;
+    padding: 25px 10px 10px;
+    border: 3px solid #f1f1f1;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Section Images */
+.testimonial img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Section Subtitle */
+.name {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+/* Section Icons */
+.stars {
+    color: #82589F;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Section Paragraph */
+.testimonial p {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* -----[ Section Responsiveness ]----- */
+
+@media screen and (max-width:960px) {
+.col {
+    flex: 100%;
+    max-width: 80%;
+}
+}
+
+@media screen and (max-width:600px) {
+.col {
+    flex: 100%;
+    max-width: 100%;
+}
+.inner h2 {
+    font-size: 32px;
+}
+}
+
+/* ------------------------------------[ Contact Me Section ]-------------------------------------- */
+
+/* Section Styling */
+#contact-section {
+    background-image: linear-gradient(to right, #82589F, #c44569);
+    color: #F5f6fa;
+    padding: 45px 40px 0;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+/* Section Title */
+.contact-intro h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+/* Column 1 Title */
+.contact-info h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: 12px;
+}
+
+/* Column 1 Paragraph */
+.contact-info .text  {
+    margin: 24px 0 32px 0;
+    font-size: 15px;
+}
+
+.information {
+    text-decoration: none;
+    color: #F5f6fa;
+}
+
+.information a {
+    text-decoration: none;
+    color: #F5f6fa;
+}
+
+
+/* Column 1 Contact Details */
+.contact-information {
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* Column 1 Contact Details Icons */
+.contact-information i {
+    margin: 0 15px 18px 0;
+    height: 35px;
+    width: 35px;
+    background-color: #f5f6fa;
+    color: #82589F;
+    font-size: 18px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Follow Me Section */
+.social-media {
+    padding: 10px 0 15px;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+}
+
+/* Social Media Individual Icons */
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #F5f6fa;
+    color: #82589F;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 8px 30px 0;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+/* Social Media Icons Hover Effect */
+.social-icons a:hover {
+  transform: scale(1.12);
+}
+
+/* Column 2 Subtitle */
+.form-intro h3 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 12px 0 20px;
+}
+
+/* Form Alignment */
+.container-fluid .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Center Form */
+.center-form {
+    margin: auto;
+}
+
+/* Inner Form */
+.form-control {
+    margin: 8px;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Form CTA Button */
+.button {
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    background-color: #F5f6fa;
+    color: #000;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 25px 10px 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 20px 0 45px;
+}
+
+/* Form CTA Button Hover Effect */
+.button:hover {
+    background: #000;
+    color: #f5f6fa;
+}
+
+/* -----[ Section Responsiveness ]----- */
+
+@media screen and (max-width:960px) {
+
+.contact-info,
+.contact-information,
+.social-icons {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #F5f6fa;
+}
+}
+
+/* Invisible Form Labels */
+label {
+    display: none;
+}
+
+/* ------------------------------------[ Footer Section ]-------------------------------------- */
+
+/* Section Styling */
+.footer-top {
+    background-color: #000;
+    color: #F5f6fa;
+    padding: 50px 0;
+}
+
+/* Section Title */
+.footer-top h2 {
+    font-family: Neucha, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+/* Section Paragraph & Form */
+.footer-top p, form {
+    color: #f5f6fa;
+    line-height: 20px;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Column 1 Title Symbol */
+.segment-one h2::before {
+    content: '|';
+    color: #82589F;
+    padding-right: 5px;
+}
+
+/* Column 2 Title Symbol */
+.segment-two h2::before {
+    content: '|';
+    color: #82589F;
+    padding-right: 5px;
+}
+
+/* Column 2 Subtitles Styling */
+.segment-two ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #f5f6fa;
+}
+
+/* Column 2 Subtitles Underline */
+.segment-two ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 20px;
+    width: 230px;
+}
+
+/* Column 2 Subtitles */
+.segment-two ul li a {
+    font-family: Poppins, Helvetica, sans-serif;
+    color: #f5f6fa;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* Column 2 Subtitles Symbol */
+.segment-two a::before {
+    content: "»";
+    margin-right: 10px;
+}
+
+/* Column 2 Subtitles Hover Effect */
+.segment-two a:hover {
+    color: #c44569;
+}
+
+/* Column 3 Title Symbol */
+.segment-three h2::before {
+    content: '|';
+    color: #82589F;
+    padding-right: 5px;
+}
+
+/* Column 3 Icons Styling */
+.segment-three a {
+    background: #f5f6fa;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 8px 0 -2px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* Column 3 Icons Background Hover Effects */
+.segment-three a:hover {
+    background: #c44569;
+}
+
+/* Column 3 Individual Icons */
+.segment-three a i {
+    font-size: 18px;
+    color: #82589F;
+    padding: 9px 10px;
+}
+
+/* Column 3 Main Icons Hover Effects */
+.segment-three a i:hover {
+    color: #f5f6fa;
+}
+
+/* Column 4 Title Symbol */
+.segment-four h2::before {
+    content: '|';
+    color: #82589F;
+    padding-right: 5px;
+}
+
+/* Newsletter Form Email */
+.segment-four form input[type=email] {
+    border: none;
+    padding: 5px 10px 3px 10px;
+    margin: 0 5px 0 -2px;
+    color: #000;
+    font-size: 10px;
+    border-radius: 30px;
+}
+
+/* Newsletter Form Submit */
+.segment-four form input[type=submit] {
+    background: #82589F;
+    border: none;
+    padding: 5px 15px 3px 15px;
+    margin-left: -3px;
+    color: #f5f6fa;
+    font-size: 10px;
+    border-radius: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* Newsletter Form Submit Hover Effect */
+.segment-four form input[type=submit]:hover {
+    background: #c44569;
+    color: #f5f6fa;
+    font-weight: 500;
+}
+
+/* Footer Bottom Text */
+.footer-bottom-text {
+    background: #252525;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 50px;
+    color: #f5f6fa;
+    margin-bottom: 0;
+}
+
+/* -----[ Section Responsiveness ]----- */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .md-mb-30 {
+        margin-bottom: 35px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .sm-mb-30 {
+        margin-bottom: 35px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .footer-top {
+        padding-top: 60px;
+        padding-bottom: 25px;
+    }
+}
+
+/* Social Media Icons Hidden Text */
+.sr-only {
+    font-size: 0;
+    height: 1px;
+    overflow: hidden;
+    display: block;
+}
